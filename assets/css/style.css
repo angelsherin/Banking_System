@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #0f0c0f!important;
+}
+
+.sb:hover{
+    color:crimson;
+}
+#nav{
+    background-color: transparent;
+    display: flex;
+    padding: 20px;
+    box-shadow: 7px 6px 10px rgb(255, 255, 255);
+    overflow: hidden;
+    color:hsl(52, 31%, 86%);
+    font-weight:500;
+}
+.options{
+    padding-left: 900px;
+    display: flex;
+    gap:40px; 
+    cursor: pointer; 
+}
+#home{
+    text-decoration: underline;
+}
+.op:hover{
+    color: #5e0b5e;
+}
+a{
+    text-decoration: none;
+    color:hsl(52, 31%, 86%); 
+}
+.container{
+    background-image: url('https://i.pinimg.com/originals/de/80/ca/de80ca4922b016784c86f80ee5c8966f.gif');
+    background-size: cover;
+    height:650px;
+    width: 100%;
+}
+.main{
+    text-align: center;
+    padding-top: 80px;
+}
+.p1{
+    font-size: 50px;
+    font-weight: 40px;
+}
+.p2{
+    font-size: 40px;
+    font-weight: 30px;
+    padding-top: 30px;
+}
+.p3{
+    font-size: 30px;
+    font-weight: 20px;
+    padding-top: 20px; 
+    cursor: pointer;
+    text-decoration:underline; 
+    color: #5e0b5e; 
+    text-decoration-color: beige; 
+}
+.p3:hover{
+    color:crimson;
+    text-decoration-color: beige;
+}
